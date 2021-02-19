@@ -1,0 +1,1 @@
+.\nuget.exe pack .\itext7.nuspec
