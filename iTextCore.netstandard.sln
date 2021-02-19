@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itext.io.netstandard", "itext\itext.io\itext.io.netstandard.csproj", "{4C4C74D4-00E2-43A4-9D7A-54352096DE32}"
 EndProject
@@ -45,7 +45,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itext.svg.netstandard", "it
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itext.svg.tests.netstandard", "itext.tests\itext.svg.tests\itext.svg.tests.netstandard.csproj", "{9F61F451-EC4F-4D1A-B339-CEDD5FA4257C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "itext.pdftest.tests.netstandard", "itext.tests\itext.pdftest.tests\itext.pdftest.tests.netstandard.csproj", "{46C393D2-BFAB-473A-AF06-E5FB586493FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itext.pdftest.tests.netstandard", "itext.tests\itext.pdftest.tests\itext.pdftest.tests.netstandard.csproj", "{46C393D2-BFAB-473A-AF06-E5FB586493FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_othefiles", "_othefiles", "{957F3EBF-5C9F-42E9-AB1F-7A858AB4B141}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		BUILDING.md = BUILDING.md
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		gnu-agpl-v3.0.md = gnu-agpl-v3.0.md
+		itext7.nuspec = itext7.nuspec
+		Jenkinsfile = Jenkinsfile
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
